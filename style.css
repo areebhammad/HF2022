@@ -113,3 +113,24 @@ footer{
     margin-top: 20px;
     color: aliceblue;
 }
+
+
+button.carousel-control-next:hover {
+    background-color: transparent;
+    /* color: black; */
+}
+
+.carousel-control-next {
+    right: 10px;
+    top: 50%;
+}
+
+button.carousel-control-prev:hover {
+    background-color: transparent;
+    /* color: black; */
+}
+
+.carousel-control-prev {
+    left: 10px;
+    top: 50%;
+}
