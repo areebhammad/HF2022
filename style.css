@@ -17,3 +17,27 @@ header > img{
     margin-right: auto;
     border-bottom: 1px solid rgb(239, 244, 255);
 }
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    color: rgb(14, 10, 10);
+}
+
+a:link,
+a:visited,
+a:active
+{
+    color: rgb(199, 169, 0);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.banner{
+    height: 100;
+    width: 100vw;
+}
