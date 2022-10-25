@@ -1,16 +1,18 @@
 ::-webkit-scrollbar
 {
-    width: 12px;   
+    width: 20px;   
 }
 ::-webkit-scrollbar-thumb
 {
-    background: linear-gradient(transparent,#ff110086);
-    border-radius: 6px;
+    background: linear-gradient(#dfdedef5);
+    border-radius: 2px;
 }
 ::-webkit-scrollbar-thumb:hover
 {
-    background: linear-gradient(transparent,#00c6ff);
+    background: linear-gradient(transparent,white);
 }
+/* .hideScrollbar::-webkit-scrollbar { width: 0 !important } */
+
 
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -19,8 +21,9 @@ body{
     width: 100vw;
     margin: 0;
     margin-top: 10px;
+    
+    
 }
-
 
 
 header > img{
@@ -126,25 +129,4 @@ footer{
     background-color: rgb(141, 21, 21);
     margin-top: 20px;
     color: aliceblue;
-}
-
-
-button.carousel-control-next:hover {
-    background-color: transparent;
-    /* color: black; */
-}
-
-.carousel-control-next {
-    right: 10px;
-    top: 50%;
-}
-
-button.carousel-control-prev:hover {
-    background-color: transparent;
-    /* color: black; */
-}
-
-.carousel-control-prev {
-    left: 10px;
-    top: 50%;
 }
