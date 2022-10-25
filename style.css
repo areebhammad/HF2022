@@ -52,6 +52,15 @@ a:active
     text-decoration: none;
 }
 
+a:link:hover,
+a:visited:hover,
+a:active:hover
+{
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 0 yellow;
+    font-weight: 600;
+    text-decoration: none;
+}
 .banner{
     height: 100;
     width: 100vw;
@@ -84,6 +93,10 @@ a:active
 .prod-main{
     border-radius: 10px;
     width: 500px;
+}
+.prod-main:hover
+{
+    border-color: #00c6ff;
 }
 
 .prod-main > img{
